@@ -97,6 +97,7 @@ Terima kasih kepada semua kontributor yang telah membantu proyek ini! 🙏
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 > Isi namamu disini
+1. Aka
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## 🌟 Dukung Proyek Ini
