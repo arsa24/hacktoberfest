@@ -25,6 +25,23 @@ Repository ini bertujuan untuk:
 - Memfasilitasi kolaborasi antar developer dengan berbagai skill level
 - Menyediakan tools sederhana hingga kompleks untuk berbagai kebutuhan
 
+## 🛠️ Tools yang Tersedia saat ini
+
+### 🖥️ Console Tools
+- **Kalkulator** - Tool kalkulator sederhana (Python)
+
+### 🔒 Cybersecurity Tools  
+- **Port Scanner** - Scanner port untuk keamanan jaringan (Go)
+
+### 📊 Others
+- **Todo List** - Aplikasi todo list sederhana (Python)
+
+### 🕷️ Scrapers
+- **KBBI Scraper** - Scraper untuk Kamus Besar Bahasa Indonesia (Node.js)
+
+### 🌐 Web Tools
+- **Mini Manager** - Tool manajemen sederhana berbasis web (PHP)
+
 
 ## 🤝 Cara Berkontribusi
 
@@ -34,11 +51,11 @@ Kami sangat senang menerima kontribusi dari siapa saja! Silakan baca [CONTRIBUTI
 1. **Fork** repository ini
 2. **Clone** ke komputer lokal kamu
 3. Buat **branch baru** untuk fitur/tool kamu
-4. Taruh File/Toolmu didalam folder `tools/kategori/nama-tool` lengkap dengan readme/cara penggunaan tools nya (contoh ada di folder `src`)
-4. **Commit** perubahan dengan pesan yang jelas
-5. **Push** ke branch punyamu
-6. Buat **Pull Request** ke repository ini
-7. Tunggu maintainer meng ACC  jangan spam **Pull Request** ygy
+4. Taruh File/Toolmu didalam folder `tools/kategori/nama-tool` lengkap dengan readme/cara penggunaan tools nya 
+5. **Commit** perubahan dengan pesan yang jelas
+6. **Push** ke branch punyamu
+7. Buat **Pull Request** ke repository ini
+8. Tunggu maintainer meng ACC  jangan spam **Pull Request** ygy
 
 ### Jenis Kontribusi yang Diterima:
 - ✨ Menambah tool/utility baru
@@ -51,41 +68,81 @@ Kami sangat senang menerima kontribusi dari siapa saja! Silakan baca [CONTRIBUTI
 ## 📁 Struktur Folder
 
 ```
-random-tools-collection/
+hacktoberfest/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
-├── .gitignore
-├── tools/
-│   ├── web/
-│   │   └── foldermu/
-│   │       ├── file-toolsmu.ext
-│   │       └── README.md
-│   ├── mobile/
-│   │   └── foldermu/
-│   │       ├── file-toolsmu.ext
-│   │       └── README.md
-│   ├── desktop/
-│   │   └── foldermu/
-│   │       ├── file-toolsmu.ext
-│   │       └── README.md
-│   ├── console/
-│   │   └── foldermu/
-│   │       ├── file-toolsmu.ext
-│   │       └── README.md
-│   └── lainnya/
-│       └── foldermu/
-│           ├── file-toolsmu.ext
-│           └── README.md
-│    
-└── LICENSE
+├── LICENSE
+├── pancake.java
+└── tools/
+    ├── console/
+    │   └── nama-tool-by-creator/
+    │       ├── source-files
+    │       ├── requirements.txt (untuk Python)
+    │       └── README.md
+    ├── cybersec/
+    │   └── nama-tool-by-creator/
+    │       ├── source-files
+    │       └── README.md
+    ├── others/
+    │   └── nama-tool-by-creator/
+    │       ├── source-files
+    │       └── README.md
+    ├── scrapers/
+    │   └── nama-tool-by-creator/
+    │       ├── source-files
+    │       ├── package.json (untuk Node.js)
+    │       └── README.md
+    └── web/
+        └── nama-tool-by-creator/
+            ├── source-files
+            └── README.md
 
 ```
 
+## 🚀 Instalasi dan Penggunaan
+
 ### Persyaratan Umum:
-- Git
+- Git untuk version control
 - Editor code (VS Code, Sublime, dll)
-- Bahasa pemrograman bebas, apa saja (HTML,CSS & Markdown tidak termasuk bahasa Pemrograman)
+- **Bahasa pemrograman bebas** - Gunakan bahasa apa saja yang kamu kuasai!
+  - Python, JavaScript/Node.js, Java, C++, Go, PHP, Ruby, Rust, dll
+
+
+### Cara Instalasi:
+1. **Clone repository**:
+   ```bash
+   git clone https://github.com/antidonasi/hacktoberfest.git
+   cd hacktoberfest
+   ```
+
+2. **Pilih tool yang ingin digunakan**:
+   ```bash
+   cd tools/kategori/nama-tool
+   ```
+
+3. **Install dependencies** (jika ada):
+   ```bash
+   # Untuk Python
+   pip install -r requirements.txt
+   
+   # Untuk Node.js/JavaScript
+   npm install
+   
+   # Untuk Go
+   go mod tidy
+   
+   # Untuk Java
+   mvn install
+   
+   # Untuk C++
+   make
+   
+   # Dan lain-lain sesuai bahasa yang digunakan
+   ```
+
+4. **Jalankan tool**:
+   Lihat README.md di masing-masing folder tool untuk instruksi spesifik.
 
 ## 📝 Lisensi
 
