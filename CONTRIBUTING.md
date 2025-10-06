@@ -1,10 +1,10 @@
-#    Panduan Kontribusi
+# 📝 Panduan Kontribusi
 
 Terima kasih sudah tertarik untuk berkontribusi pada **Random Tools Collection**! 🎉 
 
 Repository ini dibuat khusus untuk **Hacktoberfest 2025** dan kami sangat menyambut kontribusi dari developer dengan berbagai tingkat keahlian.
 
-##   Daftar Isi
+## 📋 Daftar Isi
 
 - [Code of Conduct](#-code-of-conduct)
 - [Jenis Kontribusi](#-jenis-kontribusi)
@@ -14,26 +14,26 @@ Repository ini dibuat khusus untuk **Hacktoberfest 2025** dan kami sangat menyam
 - [Review Process](#-review-process)
 - [Tips untuk Kontributor Baru](#-tips-untuk-kontributor-baru)
 
-##   Code of Conduct
+## 📜 Code of Conduct
 
 Dengan berkontribusi pada proyek ini, kamu setuju untuk mengikuti [Code of Conduct](CODE_OF_CONDUCT.md) kami. Singkatnya:
 - Bersikap sopan dan menghormati sesama kontributor
 - Memberikan feedback yang konstruktif
 - Fokus pada apa yang terbaik untuk komunitas
 
-##   Jenis Kontribusi
+## 🎯 Jenis Kontribusi
 
 ### ✨ Menambah Tool Baru
 - **Beginner Friendly**: Calculator, Todo List, Random Quote Generator
 - **Intermediate**: URL Shortener, File Converter, API Wrapper
 - **Advanced**: System Monitor, Data Analytics Tool, Machine Learning Utility
 
-###  Memperbaiki Bug
-- Cek [Issues](https://github.com/yourusername/hacktoberfest2025/issues) dengan label `bug`
+### 🐛 Memperbaiki Bug
+- Cek [Issues](https://github.com/antidonasi/hacktoberfest/issues) dengan label `bug`
 - Reproduksi bug dan berikan langkah-langkah yang jelas
 - Jelaskan solusi yang kamu implementasikan
 
-###   Dokumentasi
+### 📚 Dokumentasi
 - Memperbaiki typo atau kesalahan bahasa
 - Menambah contoh penggunaan
 - Membuat tutorial atau panduan
@@ -50,11 +50,11 @@ Dengan berkontribusi pada proyek ini, kamu setuju untuk mengikuti [Code of Condu
 ### 1. Fork & Clone
 ```bash
 # Fork repository di GitHub, lalu clone
-git clone https://github.com/antidonasi/hacktoberfest2025.git
-cd hacktoberfest2025
+git clone https://github.com/antidonasi/hacktoberfest.git
+cd hacktoberfest
 
 # Tambah remote upstream
-git remote add upstream https://github.com/original-owner/hacktoberfest2025.git
+git remote add upstream https://github.com/antidonasi/hacktoberfest.git
 ```
 
 ### 2. Buat Branch Baru
