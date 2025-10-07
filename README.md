@@ -29,6 +29,7 @@ Repository ini bertujuan untuk:
 
 ### 🖥️ Console Tools
 - **Kalkulator** - Tool kalkulator sederhana (Python)
+- **GetDirectUrl** - Tool untuk mendapatkan direct url dari cloud storage
 
 ### 🔒 Cybersecurity Tools  
 - **Port Scanner** - Scanner port untuk keamanan jaringan (Go)
