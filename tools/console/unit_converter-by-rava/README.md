@@ -22,12 +22,12 @@ Dibuat agar mudah digunakan, sederhana, dan cocok dijadikan proyek pembelajaran 
 ## 🚀 Instalasi & Cara Menjalankan
 
 Clone repositori berikut (atau tambahkan folder `unit-converter` ke dalam repo utama Anda):
-
+```bash
 git clone https://github.com/antidonasi/hacktoberfest.git
 cd hacktoberfest/tools/console/unit-converter
-
+```
 Jalankan program dengan perintah:
-```py
+```bash
 python src/onverter.py
 ```
 > Jika sistem Anda menggunakan `python3` sebagai alias, gunakan:
