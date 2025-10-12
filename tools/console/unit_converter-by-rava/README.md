@@ -3,8 +3,6 @@
 Program berbasis **Command Line Interface (CLI)** untuk melakukan konversi berbagai satuan seperti **panjang** dan **berat**.  
 Dibuat agar mudah digunakan, sederhana, dan cocok dijadikan proyek pembelajaran atau kontribusi awal di folder `tools/console/`.
 
----
-
 ## ✨ Fitur Utama
 - Konversi **panjang**: `m`, `cm`, `mm`, `km`, `inch`, `ft`, `yd`, `mile`
 - Konversi **berat**: `kg`, `g`, `mg`, `lb`, `oz`, `ton`
@@ -12,12 +10,8 @@ Dibuat agar mudah digunakan, sederhana, dan cocok dijadikan proyek pembelajaran 
 - Validasi input dengan pesan error yang mudah dipahami
 - Tidak memerlukan dependensi eksternal (dibuat dengan **pure Python**)
 
----
-
 ## 🧾 Prasyarat
 - **Python 3.x** sudah terinstal di sistem Anda
-
----
 
 ## 🚀 Instalasi & Cara Menjalankan
 
@@ -33,8 +27,6 @@ python src/onverter.py
 > Jika sistem Anda menggunakan `python3` sebagai alias, gunakan:
 > python3 src/converter.py
 
----
-
 ## 💻 Contoh Penggunaan (Mode Interaktif)
 ```bash
 $ python converter.py
@@ -45,7 +37,6 @@ Ke unit: inch
 
 hasil 10 cm = 3.9370 inch  
 ```
----
 
 ## 🔧 Contoh Penggunaan (Non-Interaktif / Scriptable)
 
@@ -55,7 +46,6 @@ from src.unit_converter import convert_length
 
 print(convert_length(10, "cm", "inch"))
 ```
----
 
 ## 🧩 Daftar Unit yang Didukung
 
@@ -65,13 +55,9 @@ print(convert_length(10, "cm", "inch"))
 **Berat (Weight):**  
 `kg`, `g`, `mg`, `lb`, `oz`, `ton`
 
----
-
 ## ❗ Penanganan Error
 
 Jika pengguna memasukkan satuan yang tidak dikenali atau nilai yang tidak valid, program akan menampilkan pesan kesalahan yang jelas untuk membantu memperbaiki input.
-
----
 
 ## 🧠 Rencana Pengembangan (Kontribusi Terbuka)
 
@@ -81,8 +67,6 @@ Beberapa ide pengembangan yang dapat Anda bantu kembangkan:
 - Menambahkan mode CLI **non-interaktif** (`--value`, `--from`, `--to`, `--mode`)
 - Menambahkan **alias unit** (contoh: `feet` → `ft`, `kilogram` → `kg`)
 - Menambahkan **unit test** dengan `pytest` dan integrasi CI melalui GitHub Actions
-
----
 
 ## 📄 Lisensi
 
