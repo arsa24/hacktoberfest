@@ -33,3 +33,18 @@ pub fn auto_handler(url: &str, download: bool) {
         Err(err) => eprintln!("❌ Gagal: {}", err),
     };
 }
+
+pub fn get_provider_name(url: &str) -> Result<String, String> {
+    let parsed_url = Url::parse(url).map_err(|e| e.to_string())?;
+    let domain = parsed_url.domain().ok_or("No domain found")?;
+    let parts: Vec<&str> = domain.split('.').collect();
+
+    // Heuristic: return the second-level domain when available (e.g. "www.pixeldrain.com" -> "pixeldrain")
+    let provider = if parts.len() >= 2 {
+        parts[parts.len() - 2]
+    } else {
+        parts[0]
+    };
+
+    Ok(provider.to_lowercase())
+}
